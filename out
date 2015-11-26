@@ -1,0 +1,787 @@
+link-grammar: Info: Dictionary found at /usr/share/link-grammar/en/4.0.dict
+link-grammar-4.7.4
+This program is Amminadab, the son of Samu Bátfai.
+Copyright (C) 2015 Norbert Bátfai
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+QL start... Amminadab@sleep.0.0%> son was Isaac
+0 ms 
+QL start... Amminadab@sleep.2.50%> son was Jacob
+128 ms 
+QL start... Amminadab@sleep.3.-19%> son was Jacob
+139 ms 
+QL start... Amminadab@sleep.3.-35%> son was Jacob
+132 ms 
+QL start... Amminadab@sleep.3.-38%> son was Jacob
+132 ms 
+QL start... Amminadab@sleep.4.51%> son was Ram
+145 ms 
+QL start... Amminadab@sleep.5.16%> son was Ram
+147 ms 
+1-th iter, err: 16.17 (-8.47, good: 1, bad: 6), brel%: 3.57143, 827 ms 20
+QL start... Amminadab@sleep.6.-20%> son was Ram
+158 ms 
+QL start... Amminadab@sleep.6.-34%> son was Ram
+149 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+121 ms 
+QL start... Amminadab@sleep.6.-24%> son was Ram
+141 ms 
+QL start... Amminadab@sleep.6.-24%> son was Ram
+152 ms 
+QL start... Amminadab@sleep.6.-27%> son was Ram
+154 ms 
+QL start... Amminadab@sleep.6.-27%> son was Ram
+155 ms 
+2-th iter, err: 13.86 (-6.16, good: 1, bad: 6), brel%: -8, 1033 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+110 ms 
+QL start... Amminadab@sleep.6.-32%> son was Ram
+153 ms 
+QL start... Amminadab@sleep.6.-23%> son was Ram
+153 ms 
+QL start... Amminadab@sleep.6.-50%> son was Hezron
+125 ms 
+QL start... Amminadab@sleep.6.-31%> son was Ram
+153 ms 
+QL start... Amminadab@sleep.6.-38%> son was Ram
+155 ms 
+QL start... Amminadab@sleep.6.-23%> son was Ram
+152 ms 
+3-th iter, err: 9.24 (-1.54, good: 3, bad: 4), brel%: -13.8571, 1004 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+117 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+117 ms 
+QL start... Amminadab@sleep.6.-18%> son was Ram
+153 ms 
+QL start... Amminadab@sleep.6.-33%> son was Ram
+153 ms 
+QL start... Amminadab@sleep.6.-5%> son was Ram
+154 ms 
+QL start... Amminadab@sleep.6.-36%> son was Ram
+154 ms 
+QL start... Amminadab@sleep.6.-4%> son was Ram
+151 ms 
+4-th iter, err: 9.24 (-1.54, good: 3, bad: 4), brel%: 14.8571, 1003 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+114 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+119 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+112 ms 
+QL start... Amminadab@sleep.6.-21%> son was Ram
+160 ms 
+QL start... Amminadab@sleep.6.31%> son was Ram
+155 ms 
+QL start... Amminadab@sleep.6.100%> son was Amminadab
+118 ms 
+QL start... Amminadab@sleep.6.-29%> son was Ram
+159 ms 
+5-th iter, err: 4.62 (3.08, good: 5, bad: 2), brel%: 54.4286, 941 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+119 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+116 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+123 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+120 ms 
+QL start... Amminadab@sleep.6.31%> son was Ram
+155 ms 
+QL start... Amminadab@sleep.6.-53%> son was Ram
+164 ms 
+QL start... Amminadab@sleep.6.-11%> son was Ram
+149 ms 
+6-th iter, err: 4.62 (3.08, good: 5, bad: 2), brel%: 52.4286, 949 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+121 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+116 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+117 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+118 ms 
+QL start... Amminadab@sleep.6.100%> son was Ram
+122 ms 
+QL start... Amminadab@sleep.6.-52%> son was Ram
+152 ms 
+QL start... Amminadab@sleep.6.-5%> son was Ram
+156 ms 
+7-th iter, err: 4.62 (3.08, good: 5, bad: 2), brel%: 63.2857, 905 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+115 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+114 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+119 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+119 ms 
+QL start... Amminadab@sleep.6.100%> son was Ram
+115 ms 
+QL start... Amminadab@sleep.6.100%> son was Amminadab
+117 ms 
+QL start... Amminadab@sleep.6.-30%> son was Ram
+150 ms 
+8-th iter, err: 2.31 (5.39, good: 6, bad: 1), brel%: 81.4286, 853 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+119 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+114 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+120 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+121 ms 
+QL start... Amminadab@sleep.6.100%> son was Ram
+115 ms 
+QL start... Amminadab@sleep.6.100%> son was Amminadab
+128 ms 
+QL start... Amminadab@sleep.6.-33%> son was Ram
+152 ms 
+9-th iter, err: 2.31 (5.39, good: 6, bad: 1), brel%: 81, 871 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+114 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+120 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+123 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+151 ms 
+QL start... Amminadab@sleep.6.100%> son was Ram
+123 ms 
+QL start... Amminadab@sleep.6.100%> son was Amminadab
+124 ms 
+QL start... Amminadab@sleep.6.-31%> son was Ram
+155 ms 
+10-th iter, err: 2.31 (5.39, good: 6, bad: 1), brel%: 81.2857, 912 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+120 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+125 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+115 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+108 ms 
+QL start... Amminadab@sleep.6.100%> son was Ram
+111 ms 
+QL start... Amminadab@sleep.6.100%> son was Amminadab
+113 ms 
+QL start... Amminadab@sleep.6.-27%> son was Ram
+137 ms 
+11-th iter, err: 2.31 (5.39, good: 6, bad: 1), brel%: 81.8571, 833 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+112 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+108 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+110 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+113 ms 
+QL start... Amminadab@sleep.6.100%> son was Ram
+111 ms 
+QL start... Amminadab@sleep.6.100%> son was Amminadab
+108 ms 
+QL start... Amminadab@sleep.6.-23%> son was Ram
+142 ms 
+12-th iter, err: 2.31 (5.39, good: 6, bad: 1), brel%: 82.4286, 808 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+106 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+112 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+100 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+97 ms 
+QL start... Amminadab@sleep.6.100%> son was Ram
+97 ms 
+QL start... Amminadab@sleep.6.100%> son was Amminadab
+95 ms 
+QL start... Amminadab@sleep.6.-19%> son was Ram
+129 ms 
+13-th iter, err: 2.31 (5.39, good: 6, bad: 1), brel%: 83, 741 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+119 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+105 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+103 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+108 ms 
+QL start... Amminadab@sleep.6.100%> son was Ram
+108 ms 
+QL start... Amminadab@sleep.6.100%> son was Amminadab
+103 ms 
+QL start... Amminadab@sleep.6.-15%> son was Ram
+140 ms 
+14-th iter, err: 2.31 (5.39, good: 6, bad: 1), brel%: 83.5714, 789 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+101 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+114 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+107 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+106 ms 
+QL start... Amminadab@sleep.6.100%> son was Ram
+111 ms 
+QL start... Amminadab@sleep.6.100%> son was Amminadab
+115 ms 
+QL start... Amminadab@sleep.6.-11%> son was Ram
+130 ms 
+15-th iter, err: 2.31 (5.39, good: 6, bad: 1), brel%: 84.1429, 786 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+99 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+95 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+101 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+101 ms 
+QL start... Amminadab@sleep.6.100%> son was Ram
+108 ms 
+QL start... Amminadab@sleep.6.100%> son was Amminadab
+111 ms 
+QL start... Amminadab@sleep.6.-8%> son was Ram
+120 ms 
+16-th iter, err: 2.31 (5.39, good: 6, bad: 1), brel%: 84.5714, 738 ms 20
+QL start... Amminadab@sleep.6.100%> son was Jacob
+113 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+103 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+95 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+100 ms 
+QL start... Amminadab@sleep.6.100%> son was Ram
+98 ms 
+QL start... Amminadab@sleep.6.100%> son was Amminadab
+103 ms 
+QL start... Amminadab@sleep.6.-5%> son was Ram
+140 ms 
+17-th iter, err: 2.31 (5.39, good: 6, bad: 1), brel%: 85, 756 ms 20
+____2__ sons were and
+______3__ son was Ram
+____2__ son was Hezron
+__1__ sons were and
+__1__ son was Amminadab
+____2__ son was Ram
+__1__ son was Hezron
+______________7__ son was Amminadab
+____________6__ son was Ram
+__________5__ son was Hezron
+________4__ sons were and
+______3__ sons were and
+____2__ son was Jacob
+__1__ son was Isaac
+__1__ son was Jacob
+____2__ son was Amminadab
+__1__ son was Ram
+0__   
+QL start... Amminadab@sleep.6.100%> son was Jacob
+122 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+105 ms 
+QL start... Amminadab@sleep.6.100%> sons were and
+119 ms 
+QL start... Amminadab@sleep.6.100%> son was Hezron
+120 ms 
+QL start... Amminadab@sleep.6.100%> son was Ram
+123 ms 
+QL start... Amminadab@sleep.6.100%> son was Amminadab
+125 ms 
+QL start... Amminadab@sleep.6.-2%> son was Ram
+152 ms 
+QL start... Amminadab@sleep.6.-20%> son was Ram
+164 ms 
+QL start... Amminadab@sleep.7.-44%> son was Salmon
+159 ms 
+QL start... Amminadab@sleep.8.-51%> son was Salmon
+178 ms 
+QL start... Amminadab@sleep.9.-46%> son was Salmon
+184 ms 
+QL start... Amminadab@sleep.10.-57%> son was Salmon
+207 ms 
+QL start... Amminadab@sleep.11.-52%> son was Salmon
+185 ms 
+QL start... Amminadab@sleep.12.-55%> son was Salmon
+203 ms 
+18-th iter, err: 18.48 (-3.08, good: 6, bad: 8), brel%: 19.5, 2153 ms 20
+QL start... Amminadab@sleep.12.100%> son was Jacob
+119 ms 
+QL start... Amminadab@sleep.12.100%> sons were and
+120 ms 
+QL start... Amminadab@sleep.12.100%> sons were and
+121 ms 
+QL start... Amminadab@sleep.12.100%> son was Hezron
+125 ms 
+QL start... Amminadab@sleep.12.100%> son was Ram
+120 ms 
+QL start... Amminadab@sleep.12.100%> son was Amminadab
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+116 ms 
+QL start... Amminadab@sleep.13.-51%> son was Salmon
+202 ms 
+QL start... Amminadab@sleep.13.-43%> son was Salmon
+208 ms 
+QL start... Amminadab@sleep.13.-51%> son was Salmon
+197 ms 
+QL start... Amminadab@sleep.13.-51%> son was Salmon
+196 ms 
+QL start... Amminadab@sleep.13.-54%> son was Salmon
+187 ms 
+QL start... Amminadab@sleep.13.-50%> son was Salmon
+202 ms 
+QL start... Amminadab@sleep.13.-56%> son was Salmon
+200 ms 
+19-th iter, err: 13.86 (1.54, good: 8, bad: 6), brel%: 24.5714, 2235 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+118 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+112 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+117 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+117 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+123 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+123 ms 
+QL start... Amminadab@sleep.13.-45%> son was Salmon
+199 ms 
+QL start... Amminadab@sleep.13.-50%> son was Salmon
+195 ms 
+QL start... Amminadab@sleep.13.-39%> son was Salmon
+200 ms 
+QL start... Amminadab@sleep.13.-55%> son was Salmon
+193 ms 
+QL start... Amminadab@sleep.13.-49%> son was Salmon
+208 ms 
+QL start... Amminadab@sleep.13.-44%> son was Salmon
+193 ms 
+20-th iter, err: 13.86 (1.54, good: 8, bad: 6), brel%: 37, 2145 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+115 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+120 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+118 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+121 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+115 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+117 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+118 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+114 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+120 ms 
+QL start... Amminadab@sleep.13.-23%> son was Salmon
+202 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+119 ms 
+QL start... Amminadab@sleep.13.-27%> son was Salmon
+194 ms 
+QL start... Amminadab@sleep.13.-35%> son was Salmon
+166 ms 
+QL start... Amminadab@sleep.13.-22%> son was Salmon
+185 ms 
+21-th iter, err: 9.24 (6.16, good: 10, bad: 4), brel%: 63.7857, 1932 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+93 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+111 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+103 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+115 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+118 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+111 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+114 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+121 ms 
+QL start... Amminadab@sleep.13.-18%> son was Salmon
+196 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+120 ms 
+QL start... Amminadab@sleep.13.100%> son was Rehoboam
+121 ms 
+QL start... Amminadab@sleep.13.-28%> son was Salmon
+195 ms 
+QL start... Amminadab@sleep.13.-18%> son was Salmon
+195 ms 
+22-th iter, err: 6.93 (8.47, good: 11, bad: 3), brel%: 74, 1842 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+114 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+119 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+120 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+120 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+122 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+115 ms 
+QL start... Amminadab@sleep.13.-16%> son was Salmon
+199 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+115 ms 
+QL start... Amminadab@sleep.13.100%> son was Rehoboam
+113 ms 
+QL start... Amminadab@sleep.13.100%> son was Abijah
+119 ms 
+QL start... Amminadab@sleep.13.-25%> son was Salmon
+200 ms 
+23-th iter, err: 4.62 (10.78, good: 12, bad: 2), brel%: 82.7857, 1813 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+117 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+121 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+121 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+115 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+170 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+153 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+99 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+110 ms 
+QL start... Amminadab@sleep.13.-18%> son was Salmon
+199 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+114 ms 
+QL start... Amminadab@sleep.13.100%> son was Rehoboam
+114 ms 
+QL start... Amminadab@sleep.13.100%> son was Abijah
+126 ms 
+QL start... Amminadab@sleep.13.-22%> son was Salmon
+196 ms 
+24-th iter, err: 4.62 (10.78, good: 12, bad: 2), brel%: 82.8571, 1882 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+116 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+121 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+131 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+118 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+121 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+113 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+114 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+115 ms 
+QL start... Amminadab@sleep.13.-17%> son was Salmon
+213 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+104 ms 
+QL start... Amminadab@sleep.13.100%> son was Rehoboam
+130 ms 
+QL start... Amminadab@sleep.13.100%> son was Abijah
+123 ms 
+QL start... Amminadab@sleep.13.-18%> son was Salmon
+197 ms 
+25-th iter, err: 4.62 (10.78, good: 12, bad: 2), brel%: 83.2143, 1840 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+120 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+119 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+114 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+115 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+112 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+113 ms 
+QL start... Amminadab@sleep.13.-15%> son was Salmon
+197 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+121 ms 
+QL start... Amminadab@sleep.13.100%> son was Rehoboam
+117 ms 
+QL start... Amminadab@sleep.13.100%> son was Abijah
+120 ms 
+QL start... Amminadab@sleep.13.-15%> son was Salmon
+201 ms 
+26-th iter, err: 4.62 (10.78, good: 12, bad: 2), brel%: 83.5714, 1806 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+116 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+115 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+115 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+117 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+119 ms 
+QL start... Amminadab@sleep.13.-13%> son was Salmon
+199 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+118 ms 
+QL start... Amminadab@sleep.13.100%> son was Rehoboam
+118 ms 
+QL start... Amminadab@sleep.13.100%> son was Abijah
+118 ms 
+QL start... Amminadab@sleep.13.-12%> son was Salmon
+204 ms 
+27-th iter, err: 4.62 (10.78, good: 12, bad: 2), brel%: 83.9286, 1813 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+118 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+118 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+121 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+118 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+122 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+118 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+118 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+116 ms 
+QL start... Amminadab@sleep.13.-12%> son was Salmon
+202 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+120 ms 
+QL start... Amminadab@sleep.13.100%> son was Rehoboam
+125 ms 
+QL start... Amminadab@sleep.13.100%> son was Abijah
+114 ms 
+QL start... Amminadab@sleep.13.-10%> son was Salmon
+197 ms 
+28-th iter, err: 4.62 (10.78, good: 12, bad: 2), brel%: 84.1429, 1834 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+117 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+125 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+117 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+118 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+118 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+121 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+122 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+121 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+121 ms 
+QL start... Amminadab@sleep.13.-10%> son was Salmon
+203 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+122 ms 
+QL start... Amminadab@sleep.13.100%> son was Rehoboam
+114 ms 
+QL start... Amminadab@sleep.13.100%> son was Abijah
+120 ms 
+QL start... Amminadab@sleep.13.-8%> son was Salmon
+204 ms 
+29-th iter, err: 4.62 (10.78, good: 12, bad: 2), brel%: 84.4286, 1855 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+117 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+119 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+124 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+136 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+131 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+128 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+138 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+119 ms 
+QL start... Amminadab@sleep.13.-9%> son was Salmon
+198 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+121 ms 
+QL start... Amminadab@sleep.13.100%> son was Rehoboam
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Abijah
+113 ms 
+QL start... Amminadab@sleep.13.-6%> son was Salmon
+196 ms 
+30-th iter, err: 4.62 (10.78, good: 12, bad: 2), brel%: 84.6429, 1889 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+117 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+118 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+117 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+122 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+117 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+114 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+121 ms 
+QL start... Amminadab@sleep.13.-7%> son was Salmon
+199 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+121 ms 
+QL start... Amminadab@sleep.13.100%> son was Rehoboam
+118 ms 
+QL start... Amminadab@sleep.13.100%> son was Abijah
+116 ms 
+QL start... Amminadab@sleep.13.-4%> son was Salmon
+206 ms 
+31-th iter, err: 4.62 (10.78, good: 12, bad: 2), brel%: 84.9286, 1825 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+118 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+118 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+123 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+123 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+115 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+129 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+120 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+116 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+117 ms 
+QL start... Amminadab@sleep.13.-6%> son was Salmon
+205 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+121 ms 
+QL start... Amminadab@sleep.13.100%> son was Rehoboam
+121 ms 
+QL start... Amminadab@sleep.13.100%> son was Abijah
+116 ms 
+QL start... Amminadab@sleep.13.-2%> son was Salmon
+202 ms 
+32-th iter, err: 4.62 (10.78, good: 12, bad: 2), brel%: 85.1429, 1853 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+121 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+119 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+120 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+120 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+121 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+110 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+106 ms 
+QL start... Amminadab@sleep.13.-5%> son was Salmon
+169 ms 
+QL start... Amminadab@sleep.13.100%> son was Jesse
+115 ms 
+QL start... Amminadab@sleep.13.100%> son was Rehoboam
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Abijah
+141 ms 
+QL start... Amminadab@sleep.13.-1%> son was Salmon
+178 ms 
+33-th iter, err: 4.62 (10.78, good: 12, bad: 2), brel%: 85.2857, 1786 ms 20
+QL start... Amminadab@sleep.13.100%> son was Jacob
+119 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+121 ms 
+QL start... Amminadab@sleep.13.100%> sons were and
+99 ms 
+QL start... Amminadab@sleep.13.100%> son was Hezron
+117 ms 
+QL start... Amminadab@sleep.13.100%> son was Ram
+102 ms 
+QL start... Amminadab@sleep.13.100%> son was Amminadab
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Nahshon
+112 ms 
+QL start... Amminadab@sleep.13.100%> son was Salmon
+119 ms 
+QL start... Amminadab@sleep.13.100%> son was Boaz
+117 ms 
+QL start... Saving Samu: 15% (perceptrons)
+Saving Samu: 30% (perceptrons)
+Saving Samu: 46% (perceptrons)
+Saving Samu: 61% (perceptrons)
+Saving Samu: 76% (perceptrons)
+Saving Samu: 92% (perceptrons)
+Saving Samu: 15% (frequency table)
+Saving Samu: 30% (frequency table)
+Saving Samu: 46% (frequency table)
+Saving Samu: 61% (frequency table)
+Saving Samu: 76% (frequency table)
+Saving Samu: 92% (frequency table)
+Saving Samu: 15% (perceptrons)
+Saving Samu: 30% (perceptrons)
+Saving Samu: 46% (perceptrons)
+Saving Samu: 61% (perceptrons)
+Saving Samu: 76% (perceptrons)
+Saving Samu: 92% (perceptrons)
+Saving Samu: 15% (frequency table)
+Saving Samu: 30% (frequency table)
+Saving Samu: 46% (frequency table)
+Saving Samu: 61% (frequency table)
+Saving Samu: 76% (frequency table)
+Saving Samu: 92% (frequency table)
