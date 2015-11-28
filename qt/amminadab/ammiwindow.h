@@ -7,7 +7,7 @@ namespace Ui {
 class AmmiWindow;
 }
 
-class AmmiWindow : public QMainWindow
+class AmmiWindow : public QWidget
 {
     Q_OBJECT
 

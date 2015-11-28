@@ -52,8 +52,13 @@
 #include <sstream>
 #include <signal.h>
 #include "samu.hpp"
+//#include <QtGui>
+#include <QApplication>
+#include "ammiwindow.h"
+
 
 Samu samu {"Amminadab", "samu.soul.txt"};
+
 
 bool halted {false};
 
@@ -161,6 +166,12 @@ int main ( int argc, char **argv )
       samu.load ( samuFile );
   #endif
   */
+    QApplication a(argc, argv);
+    AmmiWindow w;
+    w.show();
+
+
+    //return a.exec();
 
   struct sigaction sa;
   sa.sa_handler = save_samu;
@@ -264,6 +275,7 @@ int main ( int argc, char **argv )
       double sum {0.0};
       int cnt {0};
       int brel {0};
+
       if ( samu.sleep() )
         {
 
@@ -357,6 +369,12 @@ int main ( int argc, char **argv )
                           std::string file = key+".triplets";
                           for ( std::string line; std::getline ( train, line ) && samu.sleep(); )
                             {
+                              if (line.at(0) == '/')
+                              {
+                                  std::cerr << "megtalaltuk nignig" << std::endl;
+                                  std::cerr << line << std::endl;
+                                  continue;
+                              }
 
 #ifndef TRIPLET_CACHE
                               sum += to_samu ( 12, line );
@@ -382,7 +400,7 @@ int main ( int argc, char **argv )
 
             }
 
-          //std::cerr << "###### " << ++j << "-th iter " << sum << std::endl;
+          std::cerr << "###### " << ++j << "-th iter " << sum << std::endl;
 
           double mbrel = ( double ) brel/ ( double ) cnt;
           int bad = ( sum - samu.get_max_reward() * cnt ) / ( samu.get_min_reward() - samu.get_max_reward() );
@@ -504,7 +522,7 @@ int main ( int argc, char **argv )
           /*if ( mbrelc2 >= samuHasAlreadyLearned )
                   {
 
-              	                  if(N_e < samuHasAlreadyLearned)
+                                  if(N_e < samuHasAlreadyLearned)
               N_e +=1;
                     samu.scale_N_e(.67);
               mbrelc2 = 0;
@@ -536,5 +554,8 @@ int main ( int argc, char **argv )
   }
   #endif
   */
-  return 0;
+
+  return a.exec();
+  //return 0;
 }
+

@@ -30,6 +30,7 @@ HEADERS  += ammiwindow.h\
         ql.hpp\
         qlc.h\
         net.hpp\
-        qlc.cu
+        qlc.cu\
+        disp.hpp
 
 FORMS    += ammiwindow.ui

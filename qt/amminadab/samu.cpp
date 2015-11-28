@@ -57,6 +57,7 @@
 #include <ncurses.h>
 
 
+
 #ifdef NETCHAT
 
 Net Samu::net;

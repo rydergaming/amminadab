@@ -79,6 +79,8 @@
 
 #include <cctype>
 #include <cmath>
+#include <QApplication>
+#include "ammiwindow.h"
 
 enum SamuState {SLEEP, TERMINAL, NETWORK};
 
@@ -97,6 +99,8 @@ public:
 
     std::unique_lock<std::mutex> lk ( mutex_ );
     cv_.notify_all();
+
+
   }
 
   ~Samu()
