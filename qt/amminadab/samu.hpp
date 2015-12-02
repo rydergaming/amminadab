@@ -81,14 +81,25 @@
 #include <cmath>
 #include <QApplication>
 #include "ammiwindow.h"
+#include <QObject>
+#include <QString>
+#include <QThread>
+
+#ifndef DISP_QT
+#define DISP_QT
+#endif
 
 enum SamuState {SLEEP, TERMINAL, NETWORK};
 
-class Samu
+class Samu : public QObject
 {
+    Q_OBJECT
+Q_SIGNALS:
+    void log(const QString &msg);
+
 public:
 
-  Samu ( const char* name, const char* soul ) : name ( name ), soul ( soul )
+  Samu ( const char* name, const char* soul, QObject* parent = 0 ) : QObject(parent), name ( name ), soul ( soul )
   {
 #ifndef Q_LOOKUP_TABLE
 
@@ -114,9 +125,11 @@ public:
     run_ = false;
     terminal_thread_.join();
     network_thread_.join();
+    /*terminal_thread_.exit();
+    network_thread_.exit();*/
   }
 
-  bool run ( void ) const
+  bool running ( void ) const
   {
     return run_;
   }
@@ -650,8 +663,10 @@ private:
         samu.net.write_session ( nr );
 #endif
 
-#ifdef DISP_CURSES
-      samu.disp.log ( r );
+#ifdef DISP_QT
+      //samu.disp.log ( r );
+      QString a = QString::fromStdString(r);
+      emit samu.log(a);
 #endif
 
 #else
@@ -777,6 +792,11 @@ private:
   std::condition_variable cv_;
   std::thread terminal_thread_ {&Samu::terminal, this};
   std::thread network_thread_ {&Samu::network, this};
+  QThread qt_thread_;
+  //qt_thread_.thread(terminal_thread_);
+  QThread qn_thread_;
+
+
 
   NLP nlp;
   VisualImagery vi {*this};

@@ -13,7 +13,21 @@
   <property name="windowTitle">
    <string>AmmiWindow</string>
   </property>
-  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
@@ -23,12 +37,6 @@
      <height>22</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuAsd_Test">
-    <property name="title">
-     <string>Asd Test</string>
-    </property>
-   </widget>
-   <addaction name="menuAsd_Test"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">

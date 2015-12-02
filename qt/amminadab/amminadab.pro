@@ -16,11 +16,13 @@ INCLUDEPATH += -I/usr/include/boost
 LIBS+= -L/usr/lib -llink-grammar
 LIBS+= -L/usr/lib -lboost_date_time
 LIBS += -L/usr/lib -lboost_system
+LIBS += -pthread
 
 SOURCES += main.cpp\
         ammiwindow.cpp\
         samu.cpp\
         nlp.cpp\
+    samumain.cpp
 
 
 
@@ -30,7 +32,7 @@ HEADERS  += ammiwindow.h\
         ql.hpp\
         qlc.h\
         net.hpp\
-        qlc.cu\
-        disp.hpp
+        qlc.cu \
+    samumain.h
 
 FORMS    += ammiwindow.ui

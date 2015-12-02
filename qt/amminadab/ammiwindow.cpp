@@ -8,16 +8,24 @@
 
 
 AmmiWindow::AmmiWindow(QWidget *parent) :
-    QWidget(parent),
+    QMainWindow(parent),
     ui(new Ui::AmmiWindow)
 {
-  //  ui->setupUi(this);
 
-    }
+    ui->setupUi(this);
 
+
+}
 
 
 AmmiWindow::~AmmiWindow()
 {
     delete ui;
 }
+void AmmiWindow::setLabelText(const QString &text)
+{
+    qDebug() << text;
+    ui->label->setText(text);
+}
+
+

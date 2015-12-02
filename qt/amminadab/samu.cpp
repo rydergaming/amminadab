@@ -54,7 +54,9 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#include <ncurses.h>
+#ifndef DISP_QT
+#define DISP_QT
+#endif
 
 
 
@@ -86,7 +88,7 @@ void Samu::NetworkCaregiverShell ( void )
               if ( state == NETWORK )
                 {
                   std::cerr << "Isaac went to sleep." << std::endl;
-#ifdef DISP_CURSES
+#ifdef DISP_QT
                   disp.log ( "I went to sleep." );
 #endif
                   sleep_ = true;
@@ -110,7 +112,7 @@ void Samu::NetworkCaregiverShell ( void )
                   sleep_after << ( after-sec );
                   sleep_after <<  " seconds";
 
-#ifdef DISP_CURSES
+#ifdef DISP_QT
                   disp.log ( sleep_after.str() );
 #endif
                   prev_sec = sec;
@@ -125,7 +127,7 @@ void Samu::NetworkCaregiverShell ( void )
               if ( sleep_ )
                 {
                   std::cerr << "Isaac is awake now." << std::endl;
-#ifdef DISP_CURSES
+#ifdef DISP_QT
                   disp.log ( "I am awake now." );
 #endif
                 }
@@ -167,7 +169,7 @@ void Samu::NetworkCaregiverShell ( void )
                   catch ( const char* err )
                     {
                       std::cerr << err << std::endl;
-#ifdef DISP_CURSES
+#ifdef DISP_QT
                       disp.log ( err );
 #endif
                     }
@@ -184,6 +186,7 @@ void Samu::NetworkCaregiverShell ( void )
 
 #else
 
+
 void Samu::NetworkCaregiverShell ( void )
 {
   for ( ; run_ ; )
@@ -194,8 +197,8 @@ void Samu::NetworkCaregiverShell ( void )
 
 #endif
 
-#ifdef DISP_CURSES
-Disp Samu::disp;
+#ifdef DISP_QT
+//Disp Samu::disp;
 
 void Samu::FamilyCaregiverShell ( void )
 {
@@ -213,14 +216,15 @@ void Samu::FamilyCaregiverShell ( void )
       try
         {
 
-          disp.cg_read();
+          //disp.cg_read();
 
           if ( ++sleep > sleep_after_ )
             {
               if ( state == TERMINAL )
                 {
                   std::cerr << "Isaac went to sleep." << std::endl;
-                  disp.log ( "I went to sleep." );
+                //  disp.log ( "I went to sleep." );
+                  emit log("I went to sleep.");
                   sleep_ = true;
                   state = SLEEP;
                 }
@@ -242,7 +246,8 @@ void Samu::FamilyCaregiverShell ( void )
                   sleep_after << ( after-sec );
                   sleep_after <<  " seconds";
 
-                  disp.log ( sleep_after.str() );
+                  //disp.log ( sleep_after.str() );
+                  emit log (QString::fromStdString( sleep_after.str()));
                   prev_sec = sec;
                 }
             }
@@ -255,7 +260,8 @@ void Samu::FamilyCaregiverShell ( void )
               if ( sleep_ )
                 {
                   std::cerr << "Isaac is awake now." << std::endl;
-                  disp.log ( "I am awake now." );
+                 // disp.log ( "I am awake now." );
+                  emit log ("I am awake now.");
                 }
               sleep_ = false;
               sleep = 0;
@@ -287,7 +293,8 @@ void Samu::FamilyCaregiverShell ( void )
                   catch ( const char* err )
                     {
                       std::cerr << err << std::endl;
-                      disp.log ( err );
+                      //disp.log ( err );
+                      emit log (err);
                     }
                 }
             }
