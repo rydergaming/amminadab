@@ -243,8 +243,11 @@ int main ( int argc, char **argv )
   int j {0};
   int N_e {20};
   std::string training_file = samu.get_training_file();
+    std::string t_f;
+    std::cerr << "Please Enter training file" << std::endl;
+    std::cin >> t_f;
 
-  samu.set_training_file ( "bbe" );
+  samu.set_training_file ( t_f );
 
   double prev_mbrel {0};
   int mbrelc {0};
@@ -337,7 +340,7 @@ int main ( int argc, char **argv )
                           SPOTriplet t;
                           triplet_train >> t;
 
-                          if ( !t.empty() )
+                        if ( !t.empty() )
                             cache[key].push_back ( t );
 
                         }
@@ -358,6 +361,7 @@ int main ( int argc, char **argv )
                           for ( std::string line; std::getline ( train, line ) && samu.sleep(); )
                             {
 
+                                std::cerr <<"Loading line: " << line << std::endl;
 #ifndef TRIPLET_CACHE
                               sum += to_samu ( 12, line );
 #else
